@@ -1,0 +1,23 @@
+components/Hero.tsx(119,13): error TS2322: Type '{ y: number[]; transition: { duration: number; repeat: number; ease: string; }; }' is not assignable to type 'boolean | TargetAndTransition | VariantLabels | LegacyAnimationControls | undefined'.
+  Type '{ y: number[]; transition: { duration: number; repeat: number; ease: string; }; }' is not assignable to type 'TargetAndTransition'.
+    Type '{ y: number[]; transition: { duration: number; repeat: number; ease: string; }; }' is not assignable to type '{ transition?: Transition<any> | undefined; transitionEnd?: ResolvedValues$1 | undefined; }'.
+      Types of property 'transition' are incompatible.
+        Type '{ duration: number; repeat: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+          Type '{ duration: number; repeat: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+            Type '{ duration: number; repeat: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+              Types of property 'ease' are incompatible.
+                Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+components/Hero.tsx(131,13): error TS2322: Type '{ transition: { delay: number; duration: number; repeat: number; ease: string; }; y: number[]; }' is not assignable to type 'boolean | TargetAndTransition | VariantLabels | LegacyAnimationControls | undefined'.
+  Types of property 'transition' are incompatible.
+    Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+      Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+        Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+          Types of property 'ease' are incompatible.
+            Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
+components/Hero.tsx(144,13): error TS2322: Type '{ transition: { delay: number; duration: number; repeat: number; ease: string; }; y: number[]; }' is not assignable to type 'boolean | TargetAndTransition | VariantLabels | LegacyAnimationControls | undefined'.
+  Types of property 'transition' are incompatible.
+    Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'Transition<any> | undefined'.
+      Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'TransitionWithValueOverrides<any>'.
+        Type '{ delay: number; duration: number; repeat: number; ease: string; }' is not assignable to type 'ValueAnimationTransition<any>'.
+          Types of property 'ease' are incompatible.
+            Type 'string' is not assignable to type 'Easing | Easing[] | undefined'.
