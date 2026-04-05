@@ -9,38 +9,38 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Analytics Pro',
-      subtitle: 'DATA ANALYTICS PLATFORM',
-      description: 'A comprehensive data analytics platform with real-time dashboards, advanced filtering, and predictive insights for business intelligence.',
+      title: 'FemFlow',
+      subtitle: 'WOMEN HEALTH & PCOS DETECTION',
+      description: 'A comprehensive women\'s health platform for period cycle tracking and PCOS detection using intelligent analysis to help women monitor their reproductive health.',
       stats: [
-        { value: '1.2k+', label: 'Sources' },
-        { value: '500K', label: 'Records' },
+        { value: 'AI', label: 'Detection' },
+        { value: 'Cycle', label: 'Tracking' },
       ],
-      tags: ['Next.js', 'TypeScript', 'Tailwind', 'PostgreSQL'],
+      tags: ['MongoDB', 'Express', 'React', 'Node.js'],
       link: '#'
     },
     {
       id: 2,
-      title: 'CloudSync',
-      subtitle: 'FILE MANAGEMENT SYSTEM',
-      description: 'Enterprise-grade file management system with secure cloud storage, version control, and collaborative workspace features for scaling teams.',
+      title: 'Listing App',
+      subtitle: 'PROPERTY LISTING PLATFORM',
+      description: 'A modern listing application that allows users to browse, search, and manage property listings with an intuitive user interface and powerful search features.',
       stats: [
-        { value: '10GB+', label: 'Storage' },
-        { value: '99.9%', label: 'Uptime' },
+        { value: 'CRUD', label: 'Operations' },
+        { value: 'Search', label: 'Filters' },
       ],
-      tags: ['Next.js', 'AWS S3', 'Node.js', 'Docker'],
+      tags: ['React', 'Node.js', 'MongoDB', 'Express'],
       link: '#'
     },
     {
       id: 3,
-      title: 'DevFlow',
-      subtitle: 'PROJECT MANAGEMENT TOOL',
-      description: 'Modern project management solution with Kanban boards, real-time collaboration, sprint planning, and comprehensive team analytics.',
+      title: 'Weather App',
+      subtitle: 'WEATHER FORECAST APPLICATION',
+      description: 'A real-time weather application that provides accurate forecasts, current conditions, and weather alerts for any location worldwide.',
       stats: [
-        { value: '100+', label: 'Teams' },
-        { value: '50K+', label: 'Tasks' },
+        { value: '7-Day', label: 'Forecast' },
+        { value: 'Live', label: 'Updates' },
       ],
-      tags: ['React', 'Firebase', 'Socket.io', 'Tailwind'],
+      tags: ['React', 'Weather API', 'CSS', 'JavaScript'],
       link: '#'
     },
   ]
