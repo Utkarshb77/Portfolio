@@ -7,9 +7,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'My Portfolio | Full Stack Developer',
-  description: 'Explore my projects and get in touch',
-  generator: 'v0.app',
+  title: 'Utkarsh Baghel | Full-Stack Developer & ML Enthusiast',
+  description: 'Portfolio of Utkarsh Baghel — Full-Stack Developer building high-performance web applications with React, Node.js, MongoDB, and AI integrations.',
   icons: {
     icon: [
       {
